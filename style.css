@@ -1,0 +1,43 @@
+body {
+    background-color: #B4C6B2;
+}
+
+.nav-link {
+    text-align: left;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 15x;
+    text-align: center;
+    font-family: "thrillers", sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 80px;
+}
+
+#uhm {
+    color: #1e572a;
+    background-color: white;
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+
+  #meow {
+    color: #1e572a;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    font-style: normal;
+    text-align: left;
+    font-family: "thrillers", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+
+  #purr {
+    height: 30px;
+    width: 300px;
+  }
