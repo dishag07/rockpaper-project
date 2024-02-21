@@ -35,9 +35,24 @@ font-size: 80px;
     font-family: "thrillers", sans-serif;
     font-weight: 700;
     font-size: 25px;
+
   }
 
   #purr {
     height: 30px;
     width: 300px;
+  }
+
+  #hello {
+    color: #1e572a;
+    background-color: #B4C6B2;
+    font-family: "thrillers", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+  }
+
+  #userName {
+    color: #1e572a;
+    height: 60px;
   }

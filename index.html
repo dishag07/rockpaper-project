@@ -28,8 +28,9 @@
         <header>
             <h1>Rock, Paper, Scissors</h1>
         </header>
+        <div class="row">
         <div class="col-lg-12">
-            <div class="row">
+
                 <p id="uhm">
                     <!--INFO-->
                     Welcome to my <u>Rock, Paper, Scissors</u> website. To play, choose one of the following buttons:
@@ -37,21 +38,27 @@
                     ☘️☘️</u>
                 </p>
             </div>
-            <div class="row">
-                <!--SCOREBOARD-->
-                <p id="meow">Score:</p>
-            </div>
         </div>
-        <div class="col-lg-12">
-            <div class="row">
-                <img class="img-fluid" src="images/wobgrock.png">
-            </div>
-            <div class="row">
+        <div class="row">
+            <div class="col-lg-6">
                 <!--SCOREBOARD-->
-                <p id="meow">Score:</p>
+                <p id="meow">☘️ Score:</p>
             </div>
+            <div class="col-lg-3">
+                <!-- Input for User Name-->
+                <label for="userName" class="form-label" id="response-text">Enter your Name:</label>
+
+            </div>
+            <div id="nameInput" class="col-lg-3">
+                <input type="text" class="form-control" id="userName" placeholder="User's Name" />
+                <button onclick="start()"> PLAY GAME</button>
+            </div> 
+           
+
         </div>
-        <!--PLATER PICTURES-->
+    </div>
+    </div>
+    <!--PLATER PICTURES-->
 
 
 
