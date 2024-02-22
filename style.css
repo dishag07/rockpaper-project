@@ -52,7 +52,11 @@ font-size: 80px;
     font-size: 25px;
   }
 
-  #userName {
+  #response-text {
     color: #1e572a;
     height: 60px;
+    font-family: "thrillers", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
   }
