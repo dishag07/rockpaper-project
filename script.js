@@ -51,11 +51,9 @@ function isGameOver(){
     console.log("user wins")
 
     document.getElementById('result').innerText = `Game Over. ${userName} has won with a score of ${userScore} to ${compScore}`;
-    location.reload();
 } else if (compScore === 3) {
   console.log("comp wins")
   document.getElementById('result').innerText = `Game Over. Comp has won with a score of ${compScore} to ${userScore}`;
-  location.reload();
 }
   }
 
