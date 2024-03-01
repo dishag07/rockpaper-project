@@ -16,7 +16,7 @@ font-style: normal;
 font-size: 80px;
 }
 
-#uhm {
+#result {
     color: #1e572a;
     background-color: white;
     font-size: large;
@@ -26,7 +26,29 @@ font-size: 80px;
     text-align: center;
   }
 
-  #meow {
+  #uhm {
+    color: #1e572a;
+    background-color: white;
+    font-size: large;
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+
+  #userScore {
+    color: #1e572a;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    font-style: normal;
+    text-align: left;
+    font-family: "thrillers", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+  }
+
+  #compScore {
     color: #1e572a;
     background-color: white;
     padding: 10px 20px 10px 20px;
@@ -75,4 +97,8 @@ font-size: 80px;
   #player:active {
     color: red;
     background-color: #98af9d;
+  }
+
+  #gameOver {
+
   }

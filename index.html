@@ -19,7 +19,7 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="images/wobgrock.png" alt="Logo" width="60" height="30" class="d-inline-block align-text-top">
+                <img id="gameOver"src="images/wobgrock.png" alt="Logo" width="60" height="30" class="d-inline-block align-text-top">
             </a>
             <a class="nav-link active" aria-current="page" href="#">Home</a>
         </div>
@@ -42,7 +42,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <!--SCOREBOARD-->
-                <p id="meow">☘️ Score:</p>
+                <p id="userScore">☘️ Score: 0</p>
+                <p id="compScore">☘️ Computer Score: 0</p>
+
             </div>
             <div class="col-lg-3">
                 <!-- Input for User Name-->
@@ -61,21 +63,22 @@
             <!--BUTTONS for you-->
             <div class="col-sm-6">
                 <div class="row ">
-                    <button id="player" onclick="playGame('Rock')">Rock 🪨</button>
+                    <button id="player" onclick="playGame('rock')">Rock 🪨</button>
                 </div>
                 <div class="row">
-                    <button id="player" onclick="playGame('Paper')">Paper 📝</button>
+                    <button id="player" onclick="playGame('paper')">Paper 📝</button>
                 </div>
                 <div class="row">
-                    <button id="player" onclick="playGame('Scissors')">Scissors ✂️</button>
+                    <button id="player" onclick="playGame('scissors')">Scissors ✂️</button>
                 </div>
             </div>
-        </div>
+
 <!--BUTTONS END-->
             <div class="col-sm-6">
     <img src="images/compbg.png">
 <!--COMPUTER'S CHOICE TEXT-->
-    <p id="uhm">meow</p>
+    <p id="result">meow</p>
+</div>
 </div>
         </div>
 
@@ -124,9 +127,9 @@
     <!-- Grid container -->
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color:  #a97ca3;">
+    <div class="text-center p-3" style="background-color:  #175c2e;">
         © Github Repository & Monthly Website :
-        <a class="text-white" href="https://github.com/dishag07/On-My-Birthday">OnMyBirthday.com</a> <a
+        <a class="text-white" href="https://github.com/dishag07/rockpaper-project">RockPaperScissors.com</a> <a
             class="text-white" href="https://dishag07.github.io/Gallery/">MonthlyWebsite.com</a>
     </div>
 
